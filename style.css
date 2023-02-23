@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    font-size: 16px;
+  }
+
+  .site-header {
+    background-color: #000;
+    border-bottom: 5px solid lightgreen;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+  }
+  
+  .main-nav p {
+    color: #fff;
+    padding-left: 15px;
+  }
+
+  #hamburger-icon {
+    color: white;
+    display: none;
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .main-nav-item {
+      display: none;
+    }
+    
+    #hamburger-icon {
+      display: block;
+    }
+  }
