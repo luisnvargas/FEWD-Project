@@ -5,32 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+
+ <script defer src="app.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <header class="site-header">
-        <div class="logo">
-          <h1 class="merriweather">Luis Vargas | UX Designer</h1>
-        </div>
-        <nav class="main-nav">
-          <a href="#" id="hamburger-icon">&#9776;
-          </a>
-          <p class="main-nav-item oswald">Designs</p>
-          <p class="main-nav-item oswald">Portfolio</p>
-          <p class="main-nav-item lato">About</p>
-          <p class="main-nav-item lato">Contact</p>
-        </nav>
-      </header>
-
-      <section class="case-two-boxes-container">
-        <section class="projects-facts-container">
-          <div class="fact-indiv rover-fact-indiv-1">
-            <img class="cannamates" src="images/Online Portfolio V2 14.png" alt="CannaMates img">
-            <div>
-              <h3>Project Details</h3>
-              <p>detailes</p>
+  <div class="wrapper active-element">
+    <header class="main-header">
+        <nav>
+            <div class="masthead active-element">
+                <h1><a class="title" href="#0">Luis Vargas | UX Designer</a></h1>
+                <div id="menu-toggle" class="menu-toggle active-element">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
             </div>
-          </div>
+            <div class="main-nav-list active-element">
+                <ul>
+                    <li><a href="#0">Portfolio</a></li>
+                    <li><a href="#0">Experience</a></li>
+                    <li><a href="#0" class="mobile-hide">About</a></li>
+                    <li><a href="#0" class="active-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-contents">
+        <h2>Projects</h2>
+        <section class="case-two-boxes-container">
+          <section class="projects-facts-container">
+            <div class="fact-indiv rover-fact-indiv-1">
+              <img class="thumbnail" src="images/Cannamates.png" alt="CannaMates img">
+              <div class="responsive">
+                <h3>CannaMates</h3>
+                <p>CannaMates enables anyone, anywhere to instantly network, chat, and build community with experts in the legal cannabis industry. </p>
+              </div>
+            </div>
+            <div class="fact-indiv rover-fact-indiv-1">
+              <img class="thumbnail" src="images/Fitted.png" alt="fittedapp img">
+              <div class="responsive">
+                <h3>Fitted</h3>
+                <p>Fitted is a web app that provides a compilation of  individual exercises and guided workouts to help users prioritize and commit to feeling great on demand. </p>
+              </div>
+            </div>
+            <div class="fact-indiv rover-fact-indiv-1">
+              <img class="thumbnail" src="images/Learn It.png" alt="learnitapp img">
+              <div class="responsive">
+                <h3>Learn It!</h3>
+                <p>Learn it! It is a flashcard application that targets individuals between the ages of 20 - 35 seeking a tool to help them create and retain new subjects through memory and repetition. Learn it! It is accessible on mobile and desktop, allows students to track their progress, and reminds them of pre-scheduled study time. </p>
+              </div>
+            </div>
+            </section>
+          </section>
+
+          <section class="three-wide">
+            <div class="third-container">
+              <h3 class="merriweather">Education</h3>
+              <p>General Assembly | 2022 | Online</p>
+              <p>Career Foundary | 2021 | online</p>
+            </div>
+            <div class="third-container">
+              <h3 class="merriweather">Experience</h3>
+              <p>Grateful to have opportunities to jump into the unknown, learn, and be better everyday.</p>
+              <a href="#" class="button secondary-cta oswald">Resume</a>
+            </div>
+            <div class="third-container">
+              <h3 class="merriweather">Recognition</h3>
+              <p>Awards and recognitions from Adobe and The Obama Foundation.</p>
+              <a href="#" class="button secondary-cta oswald">Awards</a>
+            </div>
+          </section>
+        </div>
+        <footer>
+          <h3 class="copyright">&copy;Good Vibes 2023  </h3>
+        </footer>
 </body>
 </html>
